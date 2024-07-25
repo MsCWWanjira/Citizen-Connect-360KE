@@ -1,0 +1,24 @@
+
+POST http://127.0.0.1:5500/educate
+Content-Type: application/json
+
+{
+    "userId" : "7aad5877-0b05-4fbd-b8a3-e108831e909b",
+    "query" : "gimme a summary of these views."
+}
+
+
+
+GET http://127.0.0.1:5500/users
+
+
+
+POST http://127.0.0.1:5500/users/add-user
+Content-Type: application/json
+
+{
+    "name" : "Bien Baraza",
+    "email" : "bienbaraza69@gmail.com",
+    "password" : "alusa255!!p",
+    "role" : "citizen"
+}
